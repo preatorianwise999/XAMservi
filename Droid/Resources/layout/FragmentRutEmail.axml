@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registro_fondo"
+    android:id="@+id/yourName">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pago_re_hint"
+        android:textColor="@color/servipag_white"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <EditText
+        android:id="@+id/rutField"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/transparent_img"
+        android:background="@color/servipag_white"
+        android:hint="@string/pago_hint_rut"
+        android:textColorHint="@color/servipag_darker_grey"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_darker_grey"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textVisiblePassword"
+        android:digits="1234567890k" />
+    <EditText
+        android:id="@+id/mailField"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/transparent_img"
+        android:background="@color/servipag_white"
+        android:hint="@string/pago_hint_email"
+        android:textColorHint="@color/servipag_darker_grey"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_red"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:digits="qwertyuiopasdfghjklzxcvbnm._@+" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bttnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pago_re_bttn_next"
+            android:textColor="@color/servipag_blue"
+            android:background="@color/servipag_yellow" />
+    </LinearLayout>
+</LinearLayout>

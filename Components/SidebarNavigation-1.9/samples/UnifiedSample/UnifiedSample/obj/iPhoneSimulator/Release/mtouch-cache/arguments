@@ -1,0 +1,39 @@
+# Version: 10.2.1.5 (xcode8.1: 44931ae)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.2.1.5/lib/mtouch/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.2.1.5/lib/mtouch/mtouch.exe \
+	--cache \
+	/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Release/mtouch-cache \
+	--sim \
+	/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/bin/iPhoneSimulator/Release/UnifiedSample.app \
+	--executable \
+	UnifiedSample \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.1 \
+	--targetver \
+	8.0 \
+	--http-message-handler=HttpClientHandler \
+	--tls-provider=default \
+	--abi=i386 \
+	--symbollist \
+	/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/obj/iPhoneSimulator/Release/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/lib/ios-unified/Xamarin-Sidebar-Unified.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/lib/ios-unified/Xamarin-Sidebar-Unified.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/UnifiedSample/UnifiedSample/bin/iPhoneSimulator/Release//UnifiedSample.exe \

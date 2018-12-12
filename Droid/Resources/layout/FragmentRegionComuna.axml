@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registro_fondo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registro_rc_title"
+        android:textColor="@color/servipag_white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp" />
+    <Button
+        android:id="@+id/showListRegion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="20dp"
+        android:background="@color/servipag_white"
+        android:gravity="left|center_vertical"
+        android:text="@string/registro_rc_hint_region"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_darker_grey" />
+    <Button
+        android:id="@+id/showListComuna"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="20dp"
+        android:background="@color/servipag_white"
+        android:gravity="left|center_vertical"
+        android:text="@string/registro_rc_hint_comuna"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_darker_grey" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/nextRC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registro_rc_button_title"
+            android:textColor="@color/servipag_blue"
+            android:background="@color/servipag_yellow" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+Sample.MainActivity, AndHUD.Sample;md50bcab7001944c2edb33c03f8c8d4403e.MainActivity
+Sample.MainActivity, AndHUD.Sample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50bcab7001944c2edb33c03f8c8d4403e.MainActivity
+Sample.MainActivity;md50bcab7001944c2edb33c03f8c8d4403e.MainActivity
+sample.MainActivity;md50bcab7001944c2edb33c03f8c8d4403e.MainActivity
+AndroidHUD.ProgressWheel, AndHUD;md5539939fcd5322368b18e9187b5e77d3d.ProgressWheel
+AndroidHUD.ProgressWheel, AndHUD, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null;md5539939fcd5322368b18e9187b5e77d3d.ProgressWheel
+AndroidHUD.ProgressWheel;md5539939fcd5322368b18e9187b5e77d3d.ProgressWheel
+androidhud.ProgressWheel;md5539939fcd5322368b18e9187b5e77d3d.ProgressWheel
+AndroidHUD.ProgressWheel/SpinHandler, AndHUD;md5539939fcd5322368b18e9187b5e77d3d.ProgressWheel_SpinHandler
+AndroidHUD.ProgressWheel+SpinHandler, AndHUD, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null;md5539939fcd5322368b18e9187b5e77d3d.ProgressWheel_SpinHandler
+AndroidHUD.ProgressWheel.SpinHandler;md5539939fcd5322368b18e9187b5e77d3d.ProgressWheel_SpinHandler
+androidhud.ProgressWheel_SpinHandler;md5539939fcd5322368b18e9187b5e77d3d.ProgressWheel_SpinHandler

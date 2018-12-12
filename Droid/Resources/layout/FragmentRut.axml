@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_yellow">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/registro_rut_title"
+        android:textColor="@color/servipag_blue"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/registro_rut_description"
+        android:textColor="@color/servipag_blue"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+    <EditText
+        android:id="@+id/rutField"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/transparent_img"
+        android:background="@color/servipag_white"
+        android:hint="@string/registro_hint_rut"
+        android:textColorHint="@color/servipag_darker_grey"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_darker_grey"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:inputType="textVisiblePassword"
+        android:digits="1234567890k" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/nextRut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registro_rut_button_title"
+            android:textColor="@color/servipag_white"
+            android:background="@color/servipag_calipso" />
+    </LinearLayout>
+</LinearLayout>

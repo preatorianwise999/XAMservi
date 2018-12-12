@@ -1,0 +1,12 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/Cheesebaron/SGTabbedPager/bcf10ffa677002022d5903921475cc497cc6eb8b/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\projects\sgtabbedpager\SGTabbedPager\SGTabbedPager.cs*SGTabbedPager/SGTabbedPager.cs
+C:\projects\sgtabbedpager\SGTabbedPager\ISGTabbedPagerDatasource.cs*SGTabbedPager/ISGTabbedPagerDatasource.cs
+C:\projects\sgtabbedpager\SGTabbedPager\ISGTabbedPagerDelegate.cs*SGTabbedPager/ISGTabbedPagerDelegate.cs
+C:\projects\sgtabbedpager\SGTabbedPager\Properties\AssemblyInfo.cs*SGTabbedPager/Properties/AssemblyInfo.cs
+SRCSRV: end ------------------------------------------------

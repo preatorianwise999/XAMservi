@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_grey">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/servipag_blue"
+            android:text="@string/pago_voucher_hint_company" />
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue"
+            android:text="Esto es una prueba muy larga de que esto no permite que se vea bien" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/servipag_blue"
+            android:text="@string/pago_voucher_hint_account_name" />
+        <TextView
+            android:id="@+id/accountName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/servipag_blue"
+            android:text="@string/pago_voucher_hint_account_id" />
+        <TextView
+            android:id="@+id/idAccount"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/servipag_blue"
+            android:text="@string/pago_voucher_hint_amount" />
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/servipag_blue"
+            android:text="@string/pago_voucher_hint_auth_code" />
+        <TextView
+            android:id="@+id/authCode"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue" />
+    </RelativeLayout>
+</LinearLayout>

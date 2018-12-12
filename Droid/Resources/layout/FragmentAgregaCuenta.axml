@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_dark_white">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/servipag_dark_grey">
+            <ImageView
+                android:id="@+id/iconType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/mayor_blanco" />
+            <TextView
+                android:id="@+id/titleType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/servipag_white" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/hintTipoID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/agregar_cta_hint_tipo_id"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue"
+            android:visibility="gone" />
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:visibility="gone">
+            <RadioButton
+                android:id="@+id/radioRut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/servipag_calipso"
+                android:text="@string/agregar_cta_hint_r_bttn_rut"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp" />
+            <RadioButton
+                android:id="@+id/radioNumCta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@color/servipag_calipso"
+                android:text="@string/agregar_cta_hint_r_bttn_ncuenta"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/textBiller"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:paddingTop="11dp"
+            android:paddingLeft="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/servipag_blue"
+            android:background="@color/servipag_white" />
+        <EditText
+            android:id="@+id/fieldIdService"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/transparent_img"
+            android:background="@color/servipag_white"
+            android:hint="@string/agregar_cta_hint_num_cliente"
+            android:textColorHint="@color/servipag_darker_grey"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue"
+            android:imeOptions="actionDone"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/textHintAliasTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/editar_cta_downer_hint_alias"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue" />
+        <EditText
+            android:id="@+id/fieldAliasCta"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/transparent_img"
+            android:background="@color/servipag_white"
+            android:hint="@string/editar_cta_hint_alias"
+            android:textColorHint="@color/servipag_darker_grey"
+            android:textSize="12dp"
+            android:textColor="@color/servipag_blue"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/imagenBoleta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/editar_cta_button_save"
+        android:textColor="@color/servipag_blue"
+        android:textSize="12dp"
+        android:background="@color/servipag_yellow" />
+</RelativeLayout>

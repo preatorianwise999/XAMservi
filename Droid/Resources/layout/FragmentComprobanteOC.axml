@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_dark_white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/excelente_resultado" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/servipag_blue"
+            android:gravity="center"
+            android:text="¡Excelente!" />
+        <TextView
+            android:id="@+id/msjUnoOC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/servipag_blue"
+            android:gravity="center"
+            android:text="Una nueva contraseña ha sido enviada a tu email registrado dhernandez@ewin.cl. Sigue las instrucciones que vienen junto a tu contraseña para recuperar el acceso a tu cuenta." />
+        <TextView
+            android:id="@+id/msjDosOC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/servipag_blue"
+            android:gravity="center"
+            android:text="En caso que el email registrado no corresponda a tu email actual, favor comunicarte al 600 620 10 10." />
+    </LinearLayout>
+</RelativeLayout>

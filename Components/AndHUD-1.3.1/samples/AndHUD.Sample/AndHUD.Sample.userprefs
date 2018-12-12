@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{E05B78E8-EB76-4FE4-B68C-F2A19DF3BE32}|Default">
+  <MonoDevelop.Ide.ItemProperties.AndHUD.Sample PreferredExecutionTarget="Android.TA4490BPKW" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Droid/Controllers/Index/FragmentInicioSesion.cs">
+    <Files>
+      <File FileName="../../../../Droid/Controllers/Index/FragmentInicioSesion.cs" Line="94" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AndHUD.Sample" expanded="True">
+            <Node name="AndHUD.Sample" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="ServipagMobile" expanded="True">
+            <Node name="ServipagMobile.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="Index" expanded="True">
+                  <Node name="FragmentInicioSesion.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+  	<item
+      android:id="@+id/misCuentas"
+      android:icon="@drawable/inicio_menu"
+      android:title="@string/menu_se_item1" />
+    <item
+      android:id="@+id/autopistas"
+	  android:icon="@drawable/autopista_menu"
+      android:title="@string/menu_se_item2" />
+    <item
+      android:id="@+id/recargas"
+      android:icon="@drawable/recarga_menu"
+      android:title="@string/menu_se_item3" />
+	<item
+      android:id="@+id/comoFunciona"
+	  android:icon="@drawable/funciona_menu"
+      android:title="@string/menu_pe_item4" />
+	<item
+      android:id="@+id/cerrarSesion"
+      android:icon="@drawable/cerrar_sesion_menu"
+      android:title="@string/menu_se_item5" />
+  </group> 
+</menu>

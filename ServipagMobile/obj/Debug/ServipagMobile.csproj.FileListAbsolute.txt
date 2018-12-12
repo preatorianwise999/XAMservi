@@ -1,0 +1,26 @@
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/ServipagMobile.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/ServipagMobile.pdb
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/DotNetCross.Memory.Unsafe.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/Newtonsoft.Json.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/Realm.DataBinding.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/Realm.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/Realm.Sync.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/Remotion.Linq.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/bin/Debug/Worklight.Core.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/obj/Debug/ServipagMobile.csprojResolveAssemblyReference.cache
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/obj/Debug/ServipagMobile.csproj.CoreCompileInputs.cache
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/obj/Debug/ServipagMobile.dll
+/Users/claudiocarcamocorrea/Downloads/servipag-android-master/ServipagMobile/obj/Debug/ServipagMobile.pdb
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/ServipagMobile.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/ServipagMobile.pdb
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/DotNetCross.Memory.Unsafe.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/Newtonsoft.Json.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/Realm.DataBinding.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/Realm.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/Realm.Sync.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/Remotion.Linq.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/bin/Debug/Worklight.Core.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/obj/Debug/ServipagMobile.csprojResolveAssemblyReference.cache
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/obj/Debug/ServipagMobile.csproj.CoreCompileInputs.cache
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/obj/Debug/ServipagMobile.dll
+/Users/claudiocarcamocorrea/Documents/Bild XAMARIN/servipag-android-master/ServipagMobile/obj/Debug/ServipagMobile.pdb

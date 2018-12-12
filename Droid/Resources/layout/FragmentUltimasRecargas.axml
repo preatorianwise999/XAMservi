@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_dark_white">
+    <LinearLayout
+        android:id="@+id/containerUR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@color/servipag_dark_grey">
+            <ImageView
+                android:id="@+id/imgAutopista"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/recargas_celulares" />
+            <TextView
+                android:id="@+id/ttlLastPDU"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:textColor="@color/servipag_white"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/recargas_title_u_recargas" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listURecargas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/containerWUR"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sin_cuenta" />
+        <TextView
+            android:id="@+id/hintSinDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:textColor="@color/servipag_blue"
+            android:text="@string/recargas_hint_sin_u_recargas"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/nuevaRecarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/recargas_button_nueva_recarga"
+        android:textColor="@color/servipag_blue"
+        android:background="@color/servipag_yellow" />
+    <Button
+        android:id="@+id/pagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/recargas_button_pagar"
+        android:textColor="@color/servipag_blue"
+        android:background="@color/servipag_yellow" />
+</RelativeLayout>

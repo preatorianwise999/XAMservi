@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_yellow">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registro_email_title"
+        android:textColor="@color/servipag_blue"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp" />
+    <EditText
+        android:id="@+id/emailFieldEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/transparent_img"
+        android:background="@color/servipag_white"
+        android:hint="@string/registro_email_hint_email"
+        android:textColorHint="@color/servipag_darker_grey"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_red"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:digits="qwertyuiopasdfghjklzxcvbnm._@+" />
+    <EditText
+        android:id="@+id/reEmailFieldEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/transparent_img"
+        android:background="@color/servipag_white"
+        android:hint="@string/registro_email_hint_email"
+        android:textColorHint="@color/servipag_darker_grey"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_red"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:digits="qwertyuiopasdfghjklzxcvbnm._@+" />
+    <RadioButton
+        android:id="@+id/radioCtas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/registro_email_hint_ctas_disponibles"
+        android:textColor="@color/servipag_blue"
+        android:textSize="12dp" />
+    <RadioButton
+        android:id="@+id/radioNovedades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/registro_email_hint_novedad_promocion"
+        android:textColor="@color/servipag_blue"
+        android:textSize="12dp" />
+    <RadioButton
+        android:id="@+id/radioCartola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/registro_email_hint_cartola"
+        android:textColor="@color/servipag_blue"
+        android:textSize="12dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/nextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registro_email_button_title"
+            android:textColor="@color/servipag_white"
+            android:background="@color/servipag_calipso" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    <ImageView
+        android:id="@+id/servipagHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/servipag_header" />
+    <RelativeLayout
+        android:id="@+id/carroCompraLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingRight="20dp">
+        <ImageButton
+            android:id="@+id/carroCompra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/carrito_compras"
+            android:background="@color/servipag_blue"
+            android:layout_gravity="left" />
+        <TextView
+            android:id="@+id/badgeText"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:text="0"
+            android:textSize="10dp"
+            android:textColor="@color/servipag_white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/BadgeCircle" />
+    </RelativeLayout>
+    <ImageButton
+        android:id="@+id/addAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:src="@drawable/agregar_header"
+        android:background="@color/servipag_blue"
+        android:layout_gravity="right"
+        android:visibility="gone" />
+    <ImageButton
+        android:id="@+id/sortMyAccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp"
+        android:src="@drawable/ordenar_home"
+        android:background="@color/servipag_blue"
+        android:layout_gravity="right"
+        android:visibility="gone" />
+</android.support.v7.widget.Toolbar>

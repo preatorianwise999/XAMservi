@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_dark_white">
+    <ScrollView
+        android:id="@+id/scrollViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/servipag_white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/autopista_login" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/servipag_calipso"
+                    android:text="@string/autopista_title_pase_diario" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="@color/servipag_black"
+                    android:text="@string/autopista_pase_diario_tc_body_one" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/servipag_black"
+                    android:textStyle="bold"
+                    android:text="@string/autopista_pase_diario_tc_body_two" />
+                <TextView
+                    android:id="@+id/bodyPDU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/servipag_black"
+                    android:textStyle="bold"
+                    android:text="@string/autopista_pase_diario_tc_body_seven" />
+                <TextView
+                    android:id="@+id/bodyPDUT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp" />
+                <TextView
+                    android:id="@+id/bodyNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/servipag_black"
+                    android:text="@string/autopista_pase_diario_tc_body_sixteen" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/servipag_black"
+                    android:text="@string/autopista_pase_diario_tc_body_seventeen" />
+                <RadioButton
+                    android:id="@+id/radioTC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/autopista_pase_diario_tc_body_eighteen"
+                    android:textColor="@color/servipag_calipso"
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/bttnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_blue"
+        android:text="@string/autopista_pase_diario_bttn_continuar"
+        android:background="@color/servipag_yellow"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+</RelativeLayout>

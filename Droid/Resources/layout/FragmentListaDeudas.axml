@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_dark_white"
+    android:id="@+id/fragmentListaDeudas">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/servipag_dark_white">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listaDeudas"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/bttnPagar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/servipag_yellow"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/montoTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/servipag_blue"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            android:textColor="@color/servipag_blue"
+            android:textStyle="bold"
+            android:text="Pagar"
+            android:gravity="center" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/containerEmptyList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/excelente_resultado" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="22dp"
+                android:textColor="@color/servipag_blue"
+                android:gravity="center"
+                android:text="¡Excelente!" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/servipag_blue"
+                android:gravity="center"
+                android:text="No tienes cuentas por pagar" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

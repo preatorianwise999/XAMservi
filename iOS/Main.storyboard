@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="4">
+            <objects>
+                <viewController id="5" sceneMemberID="viewController" customClass="ViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2"/>
+                        <viewControllerLayoutGuide type="bottom" id="3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="318" y="-107"/>
+        </scene>
+        <scene sceneID="11">
+            <objects>
+                <viewController id="12" sceneMemberID="viewController" customClass="MenuController" storyboardIdentifier="MenuController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9"/>
+                        <viewControllerLayoutGuide type="bottom" id="10"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="13">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="343" translatesAutoresizingMaskIntoConstraints="NO" customClass="UITableView" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="242" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="344" rowHeight="44">
+                                        <rect key="frame" x="0.0" y="28" width="240" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="344" id="345">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="600"/>
+                                </variation>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="340" translatesAutoresizingMaskIntoConstraints="NO" customClass="UITableView" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="112" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="341" rowHeight="55">
+                                        <rect key="frame" x="0.0" y="28" width="240" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="341" id="342">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="54.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="20" width="240" height="580"/>
+                                </variation>
+                            </tableView>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="340"/>
+                                <exclude reference="343"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="340"/>
+                                <include reference="343"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="MenuPagoExpress" destination="340" id="name-outlet-340"/>
+                        <outlet property="MenuIniciaSesion" destination="343" id="name-outlet-343"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="-106"/>
+        </scene>
+        <scene sceneID="30">
+            <objects>
+                <viewController id="31" sceneMemberID="viewController" customClass="IntroController" storyboardIdentifier="IntroController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="28"/>
+                        <viewControllerLayoutGuide type="bottom" id="29"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="32">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="105" translatesAutoresizingMaskIntoConstraints="NO" customClass="UIView" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="277" width="240" height="128"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="106" width="400" height="494"/>
+                                    <mask key="subviews">
+                                        <include reference="283"/>
+                                        <include reference="284"/>
+                                        <include reference="285"/>
+                                        <include reference="286"/>
+                                        <include reference="287"/>
+                                    </mask>
+                                </variation>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="283" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES" placeholder="Ingrese rut ej: 12345678-9" borderStyle="roundedRect" customClass="UITextField" fixedFrame="YES">
+                                        <rect key="frame" x="68" y="74" width="97" height="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="74" width="400" height="30"/>
+                                        </variation>
+                                        <attributedString key="attributedText"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="284" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES" placeholder="Ingrese contraseña" customClass="UITextField" fixedFrame="YES">
+                                        <rect key="frame" x="142" y="112" width="97" height="30"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="112" width="400" height="30"/>
+                                        </variation>
+                                        <attributedString key="attributedText"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="285" translatesAutoresizingMaskIntoConstraints="NO" customClass="UIButton" hasAttributedTitle="YES" fixedFrame="YES">
+                                        <rect key="frame" x="191" y="194" width="46" height="30"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="194" width="400" height="30"/>
+                                        </variation>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="¿Olvidaste tu contraseña?">
+                                                    <attributes>
+                                                        <color key="NSColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                                        <font key="NSFont" name="HelveticaNeue" family="Helvetica Neue" size="12"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="286" translatesAutoresizingMaskIntoConstraints="NO" customClass="UIButton" fixedFrame="YES">
+                                        <rect key="frame" x="203" y="269" width="46" height="30"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="232" width="400" height="30"/>
+                                        </variation>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Ingresar"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="287" translatesAutoresizingMaskIntoConstraints="NO" customClass="UIButton" fixedFrame="YES">
+                                        <rect key="frame" x="245" y="347" width="46" height="30"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="270" width="400" height="30"/>
+                                        </variation>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Registrarte"/>
+                                    </button>
+                                </subviews>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="283"/>
+                                        <exclude reference="284"/>
+                                        <exclude reference="285"/>
+                                        <exclude reference="286"/>
+                                        <exclude reference="287"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="230" customClass="UISegmentControl" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="42" width="121" height="29"/>
+                                <segments>
+                                    <segment title="PagoExpress"/>
+                                    <segment title="Iniciar Sesión"/>
+                                </segments>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="42" width="400" height="29"/>
+                                </variation>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0" blue="0" alpha="1"/>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" id="108" translatesAutoresizingMaskIntoConstraints="NO" customClass="UIView" fixedFrame="YES">
+                                <rect key="frame" x="52" y="452" width="240" height="128"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0" blue="0" alpha="1"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="106" width="400" height="494"/>
+                                    <mask key="subviews">
+                                        <include reference="259"/>
+                                        <include reference="260"/>
+                                    </mask>
+                                </variation>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="259" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES" customClass="UILabel" fixedFrame="YES">
+                                        <rect key="frame" x="179" y="76" width="42" height="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="76" width="400" height="21"/>
+                                        </variation>
+                                        <attributedString key="attributedText">
+                                            <fragment content="¿Qué quieres pagar?">
+                                                <attributes>
+                                                    <color key="NSColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                                    <font key="NSFont" name="HelveticaNeue-Bold" family="Helvetica Neue" size="20"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="260" translatesAutoresizingMaskIntoConstraints="NO" hasAttributedTitle="YES" customClass="UIButton" fixedFrame="YES">
+                                        <rect key="frame" x="177" y="136" width="46" height="30"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="20" y="136" width="342" height="30"/>
+                                        </variation>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Ir a pago express">
+                                                    <attributes>
+                                                        <font key="NSFont" name="HelveticaNeue" family="Helvetica Neue" size="17"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="259"/>
+                                        <exclude reference="260"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="105"/>
+                                <exclude reference="108"/>
+                                <exclude reference="230"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="105"/>
+                                <include reference="108"/>
+                                <include reference="230"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="FramePagoExpress" destination="108" id="name-outlet-108"/>
+                        <outlet property="FrameInicioSesion" destination="105" id="name-outlet-105"/>
+                        <outlet property="SegmentControl" destination="230" id="name-outlet-230"/>
+                        <outlet property="ButtonPagoExpress" destination="260" id="name-outlet-260"/>
+                        <outlet property="TitlePagoExpress" destination="259" id="name-outlet-259"/>
+                        <outlet property="FieldUser" destination="283" id="name-outlet-283"/>
+                        <outlet property="FieldPassword" destination="284" id="name-outlet-284"/>
+                        <outlet property="ButtonForgotPass" destination="285" id="name-outlet-285"/>
+                        <outlet property="ButtonLogin" destination="286" id="name-outlet-286"/>
+                        <outlet property="ButtonSignUp" destination="287" id="name-outlet-287"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1172" y="-107"/>
+        </scene>
+        <scene sceneID="38">
+            <objects>
+                <viewController id="39" sceneMemberID="viewController" customClass="ContentController" storyboardIdentifier="ContentController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="36"/>
+                        <viewControllerLayoutGuide type="bottom" id="37"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="40">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="43" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="179" y="290" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <rect key="frame" x="168" y="290" width="65" height="21"/>
+                                    <mask key="constraints">
+                                        <include reference="46"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="46" firstAttribute="width" constant="65"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="46"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="43"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="44"/>
+                                <exclude reference="45"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="43"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="44"/>
+                                <include reference="45"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="44" firstItem="40" firstAttribute="bottom" secondItem="43" secondAttribute="bottom" constant="289"/>
+                            <constraint id="45" firstItem="40" firstAttribute="trailing" secondItem="43" secondAttribute="trailing" constant="167"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="41" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1594" y="-108"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="threelines.png" width="30" height="30"/>
+        <image name="user.png" width="32" height="32"/>
+        <image name="sucursales.png" width="64" height="64"/>
+        <image name="recargas.png" width="64" height="64"/>
+        <image name="password.png" width="32" height="32"/>
+        <image name="mis_cuentas.png" width="64" height="64"/>
+        <image name="ic_supervisor_account_black_24dp.png" width="36" height="36"/>
+        <image name="ic_question_answer_black_24dp.png" width="36" height="36"/>
+        <image name="ic_home_black_24dp.png" width="36" height="36"/>
+        <image name="ic_devices_black_24dp.png" width="36" height="36"/>
+        <image name="ic_action_refresh.png" width="96" height="96"/>
+        <image name="ic_action_attach.png" width="96" height="96"/>
+        <image name="cierra_sesion.png" width="64" height="64"/>
+    </resources>
+</document>

@@ -1,0 +1,13 @@
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/optimized/Default-568h@2x.png
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/optimized/threelines.png
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/optimized/Entitlements.plist
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/optimized/
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/bin/iPhoneSimulator/Release/NavigationUnifiedSample.exe.mdb
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/bin/iPhoneSimulator/Release/NavigationUnifiedSample.exe
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/NavigationUnifiedSample.exe
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/obj/iPhoneSimulator/Release/NavigationUnifiedSample.exe.mdb
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/NavigationUnifiedSample/NavigationUnifiedSample/bin/iPhoneSimulator/Release/Xamarin-Sidebar-Unified.dll

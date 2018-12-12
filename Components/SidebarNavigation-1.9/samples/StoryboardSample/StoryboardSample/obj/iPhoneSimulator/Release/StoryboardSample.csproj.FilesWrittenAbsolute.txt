@@ -1,0 +1,11 @@
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/optimized/threelines.png
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/optimized/
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/bin/iPhoneSimulator/Release/StoryboardSample.exe.mdb
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/bin/iPhoneSimulator/Release/StoryboardSample.exe
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/StoryboardSample.exe
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/StoryboardSample.exe.mdb
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/bin/iPhoneSimulator/Release/Xamarin-Sidebar-Unified.dll

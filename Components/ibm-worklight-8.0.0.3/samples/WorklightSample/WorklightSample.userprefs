@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Android/WorklightSample.Android.csproj">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WorklightSample" expanded="True">
+            <Node name="WorklightSample.Android" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WorklightSample.Android PreferredExecutionTarget="Android.ZY2237SMVX" />
+  <MonoDevelop.Ide.ItemProperties.WorklightSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1A5CF9C0-393B-4E0E-91CC-5470D27D38E8" />
+</Properties>

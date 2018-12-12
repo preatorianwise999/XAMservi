@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_dark_white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/excelente_resultado" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+        <TextView
+            android:id="@+id/titleCA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/servipag_blue"
+            android:gravity="center"
+            android:text="¡Excelente!" />
+        <TextView
+            android:id="@+id/subTitleCA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/servipag_blue"
+            android:gravity="center"
+            android:text="@string/agregar_cta_subttl_exitoso" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/addAnotherCA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Agregar otra cuenta"
+        android:textStyle="bold"
+        android:textColor="@color/servipag_blue"
+        android:background="@color/servipag_white" />
+    <Button
+        android:id="@+id/payCA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Pagar"
+        android:textStyle="bold"
+        android:textColor="@color/servipag_blue"
+        android:background="@color/servipag_yellow" />
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/servipag_dark_white"
+        android:weightSum="1">
+        <ImageButton
+            android:id="@+id/selectAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@color/servipag_dark_white"
+            android:src="@drawable/seleccion_home" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/nombreBiller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/servipag_blue"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Autopista Central" />
+                <TextView
+                    android:id="@+id/montoTotalPDU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/servipag_blue"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="$28.200" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/patente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp"
+                android:text="18726312" />
+            <TextView
+                android:id="@+id/numDocumento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp"
+                android:text="168814089" />
+            <TextView
+                android:id="@+id/fechaVencimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp"
+                android:text="20/03/2017" />
+            <TextView
+                android:id="@+id/hintServicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="20dp"
+                android:singleLine="true"
+                android:textColor="@color/servipag_calipso"
+                android:textSize="12dp"
+                android:text="El total del documento incluye eventuales saldos anteriores." />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

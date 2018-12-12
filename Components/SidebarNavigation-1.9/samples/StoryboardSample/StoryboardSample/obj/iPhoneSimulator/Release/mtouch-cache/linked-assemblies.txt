@@ -1,0 +1,8 @@
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/mtouch-cache/Link/Xamarin-Sidebar-Unified.dll
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/mtouch-cache/Link/StoryboardSample.exe
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Xml.dll
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.dll
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/mtouch-cache/Link/mscorlib.dll
+/Users/Harlot/Projects/ServipagMobile/Components/SidebarNavigation-1.9/samples/StoryboardSample/StoryboardSample/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Core.dll

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/servipag_dark_white"
+        android:weightSum="1">
+        <ImageButton
+            android:id="@+id/selectAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@color/servipag_dark_white"
+            android:src="@drawable/seleccion_home" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/nombreBiller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/servipag_blue"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Autopista Central" />
+                <TextView
+                    android:id="@+id/montoTotalCuenta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/servipag_blue"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="$28.200" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/identificador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp"
+                android:text="18726312" />
+            <TextView
+                android:id="@+id/numDocumento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp"
+                android:text="168814089" />
+            <TextView
+                android:id="@+id/fechaVencimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp"
+                android:text="20/03/2017" />
+            <TextView
+                android:id="@+id/hintServicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/servipag_calipso"
+                android:textSize="12dp"
+                android:singleLine="true" />
+            <TextView
+                android:id="@+id/nombreCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/servipag_blue"
+                android:textSize="12dp"
+                android:text="Agua casa" />
+            <RelativeLayout
+                android:id="@+id/containerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="30dp">
+                    <RadioButton
+                        android:id="@+id/radioSActual"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/servipag_calipso"
+                        android:text="Saldo actual"
+                        android:textColor="@color/servipag_blue"
+                        android:textSize="12dp" />
+                    <RadioButton
+                        android:id="@+id/radioSAnterior"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:buttonTint="@color/servipag_calipso"
+                        android:text="Saldo anterior"
+                        android:textColor="@color/servipag_blue"
+                        android:textSize="12dp" />
+                </RadioGroup>
+                <TextView
+                    android:id="@+id/valueActual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/servipag_blue"
+                    android:textSize="12dp"
+                    android:text="$28.200" />
+                <TextView
+                    android:id="@+id/valueAnterior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/servipag_blue"
+                    android:textSize="12dp"
+                    android:text="$14.100" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

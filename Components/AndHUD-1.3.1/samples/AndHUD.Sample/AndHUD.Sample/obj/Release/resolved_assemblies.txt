@@ -1,0 +1,10 @@
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/AndHUD.Sample.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/System.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/System.Xml.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/System.Core.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/Mono.Android.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/Java.Interop.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/AndHUD.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/mscorlib.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/System.Runtime.Serialization.dll
+/Users/Harlot/Projects/ServipagMobile/Components/AndHUD-1.3.1/samples/AndHUD.Sample/AndHUD.Sample/obj/Release/android/assets/System.ServiceModel.Internals.dll

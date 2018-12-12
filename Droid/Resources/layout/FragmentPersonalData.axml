@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/servipag_calipso">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registro_pd_title"
+        android:textColor="@color/servipag_white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/registro_pd_upper_hint_date"
+        android:textColor="@color/servipag_white"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/bttnBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/servipag_white"
+        android:text="@string/registro_pd_hint_date"
+        android:textSize="12dp"
+        android:textColor="@color/servipag_darker_grey" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/registro_pd_upper_hint_gender"
+        android:textColor="@color/servipag_white"
+        android:textSize="15dp" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <RadioButton
+            android:id="@+id/radioMan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/servipag_yellow"
+            android:text="@string/registro_pd_hint_gender_m"
+            android:textColor="@color/servipag_white"
+            android:textSize="12dp" />
+        <RadioButton
+            android:id="@+id/radioWoman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/servipag_yellow"
+            android:text="@string/registro_pd_hint_gender_f"
+            android:textColor="@color/servipag_white"
+            android:textSize="12dp" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/nextPersonalData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registro_pd_button_title"
+            android:textColor="@color/servipag_blue"
+            android:background="@color/servipag_yellow" />
+    </LinearLayout>
+</LinearLayout>

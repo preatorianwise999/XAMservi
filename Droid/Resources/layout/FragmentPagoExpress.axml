@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pagoExpress"
+    android:background="@drawable/fondo_login">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_express"
+        android:textColor="@color/servipag_white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp" />
+    <ImageView
+        android:id="@+id/bttnPagoExpress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/home_buscador" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp">
+            <ImageView
+                android:id="@+id/imageRecargas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/recarga_login" />
+            <ImageView
+                android:id="@+id/imageAutopistas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/autopista_login" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp">
+            <TextView
+                android:id="@+id/titleRecargas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/title_recargas"
+                android:textColor="@color/servipag_white" />
+            <TextView
+                android:id="@+id/titleAutopistas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/title_autopistas"
+                android:textColor="@color/servipag_white" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/registrarte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_registrarse"
+            android:textColor="@color/servipag_blue"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/servipag_calipso" />
+    </LinearLayout>
+</LinearLayout>
